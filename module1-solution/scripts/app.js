@@ -14,7 +14,7 @@
       if ($scope.lunchMenu == ""){
         $scope.message = "Please enter data first";
       }else {
-        menu = $scope.split(',');
+        menu = $scope.lunchMenu.split(',');
         if (menu.length > 0 && menu.length <= 3) {
           $scope.message = "Enjoy!";
         } else if (menu.length > 3) {
