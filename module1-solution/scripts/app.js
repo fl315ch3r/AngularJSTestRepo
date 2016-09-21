@@ -8,6 +8,7 @@
   function LunchCheckController($scope) {
 
     $scope.message = "";
+    $scope.lunchMenu = "";
 
     $scope.checkIfTooMuch = function() {
       var menu = [];
